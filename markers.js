@@ -44,7 +44,7 @@ var MAPCRAFTER_MARKERS = [
 		// name of the marker group, displayed in the webinterface
 		"name" : "Session One Markers",
 		// icon of the markers belonging to that group (optional)
-		//"icon" : "sign.png",
+		"icon" : "poi.png",
 		// size of that icon
 		"iconSize" : [32, 32],
 		// whether this marker group is shown by default (optional)
