@@ -42,7 +42,7 @@ var MAPCRAFTER_MARKERS = [
 		// id of the marker group, without spaces/other special chars
 		"id" : "session1",
 		// name of the marker group, displayed in the webinterface
-		"name" : "Session One Points of interest",
+		"name" : "Session One Markers",
 		// icon of the markers belonging to that group (optional)
 		//"icon" : "sign.png",
 		// size of that icon
@@ -68,7 +68,8 @@ var MAPCRAFTER_MARKERS = [
 				},
 				// more markers:
 				{"pos" : [220, 300, 64], "title" : "The offering"},
-				{"pos" : [-131, 333, 64], "title" : "Valley People", "text" : "Described as 'the nicest part of the map' this is a beautiful beachside hobbit-hole inspired home"},
+				{"pos" : [-131, 333, 64], "title" : "Valley People", 
+				 "text" : "Described as 'the nicest part of the map' this is a beautiful beachside hobbit-hole inspired home"},
 				{"pos" : [275, 148, 64], "title" : "Ruined Portal"},
 			],
 		},
