@@ -1,33 +1,5 @@
 var CONFIG = {
   "maps": {
-    "Caves": {
-      "defaultZoom": 3,
-      "imageFormat": "png",
-      "lastRendered": [
-        1619556996,
-        1619556996,
-        1619556996,
-        1619556996
-      ],
-      "maxZoom": 6,
-      "name": "Caves",
-      "renderView": "isometric",
-      "rotations": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "textureSize": 16,
-      "tileSetGroup": "thirdlife_isometric_t1",
-      "tileSize": [
-        512,
-        512
-      ],
-      "world": "thirdlife",
-      "worldName": "thirdlife",
-      "worldSeaLevel": 64
-    },
     "Isometric": {
       "defaultZoom": 3,
       "imageFormat": "png",
@@ -84,8 +56,7 @@ var CONFIG = {
   },
   "mapsOrder": [
     "Top View",
-    "Isometric",
-    "Caves"
+    "Isometric"
   ],
   "tileSetGroups": {
     "thirdlife_isometric_t1": {
