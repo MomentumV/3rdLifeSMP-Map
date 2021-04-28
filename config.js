@@ -1,7 +1,7 @@
 var CONFIG = {
   "maps": {
     "Isometric": {
-      "defaultZoom": 3,
+      "defaultZoom": 2,
       "imageFormat": "png",
       "lastRendered": [
         1619556996,
@@ -29,7 +29,7 @@ var CONFIG = {
       "worldSeaLevel": 64
     },
     "Top View": {
-      "defaultZoom": 3,
+      "defaultZoom": 2,
       "imageFormat": "png",
       "lastRendered": [
         1619556996,
