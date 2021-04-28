@@ -16,7 +16,7 @@ var MAPCRAFTER_MARKERS = [
 		// markers of this marker group...
 		"markers" : {
 			// ...in the world "world"
-			"world" : [
+			"thirdlife" : [
 
 				{"pos" : [190, 345, 64], "title" : "worthers originals"},
 				{"pos" : [220, 300, 64], "title" : "The offering"},
