@@ -1,43 +1,7 @@
 // Add your own markers to this file.
 
 var MAPCRAFTER_MARKERS = [
-	/*
-	// just one example marker group
-	{
-		// id of the marker group, without spaces/other special chars
-		"id" : "signs",
-		// name of the marker group, displayed in the webinterface
-		"name" : "Signs",
-		// icon of the markers belonging to that group (optional)
-		"icon" : "sign.png",
-		// size of that icon
-		"iconSize" : [32, 32],
-		// whether this marker group is shown by default (optional)
-		"showDefault" : true,
-		// markers of this marker group...
-		"markers" : {
-			// ...in the world "world"
-			"world" : [
-				// example marker, pretty format:
-				{
-					// position ([x, z, y])
-					"pos" : [35, -21, 64],
-					// title when you hover over the marker
-					"title" : "Sign1",
-					// text in the marker popup window
-					"text" : "Hello.",
-					// override the icon of a single marker (optional)
-					"icon" : "player.png",
-					// override the size of the marker icon (optional)
-					"iconSize" : [32, 32]
-				},
-				// more markers:
-				{"pos" : [100, 100, 64], "title" : "Test1"},
-				{"pos" : [100, 200, 64], "title" : "Test2"},
-				{"pos" : [500, 30, 64], "title" : "Test2"},
-			],
-		},
-	},*/
+	// Session One
 	{
 		// id of the marker group, without spaces/other special chars
 		"id" : "session1",
@@ -46,7 +10,7 @@ var MAPCRAFTER_MARKERS = [
 		// icon of the markers belonging to that group (optional)
 		"icon" : "poi.png",
 		// size of that icon
-		"iconSize" : [32, 32],
+		"iconSize" : [24, 24],
 		// whether this marker group is shown by default (optional)
 		"showDefault" : true,
 		// markers of this marker group...
@@ -64,13 +28,14 @@ var MAPCRAFTER_MARKERS = [
 					// override the icon of a single marker (optional)
 					//"icon" : "player.png",
 					// override the size of the marker icon (optional)
-					"iconSize" : [32, 32]
+					//"iconSize" : [32, 32]
 				},
 				// more markers:
 				{"pos" : [220, 300, 64], "title" : "The offering"},
 				{"pos" : [-131, 333, 64], "title" : "Valley People", 
 				 "text" : "Described as 'the nicest part of the map' this is a beautiful beachside hobbit-hole inspired home"},
 				{"pos" : [275, 148, 64], "title" : "Ruined Portal"},
+				}
 			],
 		},
 	},	
