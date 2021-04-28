@@ -32,8 +32,7 @@ var MAPCRAFTER_MARKERS = [
 				},
 				// more markers:
 				{"pos" : [220, 300, 64], "title" : "The offering"},
-				{"pos" : [-131, 333, 64], "title" : "Valley People", 
-				 "text" : "Described as 'the nicest part of the map' this is a beautiful beachside hobbit-hole inspired home"},
+				{"pos" : [-131, 333, 64], "title" : "Valley People"},
 				{"pos" : [275, 148, 64], "title" : "Ruined Portal"},
 				}
 			],
