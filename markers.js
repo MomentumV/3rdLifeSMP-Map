@@ -56,6 +56,8 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [-305, -77, 100], "title" : "Pride Rock/Sand Castle"},
 				{"pos" : [-108, 230, 64], "title" : "Refugee Camp"},
 				{"pos" : [-18, -10, 90], "title" : "Skizzle Point"},
+				{"pos" : [254, 200, 68], "title" : "The Crastle"},
+				
 				
 				
 				
