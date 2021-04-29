@@ -28,7 +28,7 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [220, 300, 64], "title" : "The offering"},
 				{"pos" : [275, 148, 64], "title" : "Ruined Portal"},
 				{"pos" : [-122, -324, 64], "title" : "Former Dark Oak Forest"},
-				{"pos" : [-250, 325, 64], "title" : "The Unkown Dark Oak Forest"}
+				{"pos" : [-250, 325, 64], "title" : "The Unkown Dark Oak Forest"},
 
 				
 				
@@ -53,13 +53,34 @@ var MAPCRAFTER_MARKERS = [
 			"thirdlife" : [
 				{"pos" : [197, 71, 78], "title" : "Renchanting"},
 				{"pos" : [-131, 333, 62], "title" : "Valley People"},				
-				{"pos" : [-305, -77, 100], "title" : "Monopoly Mountain"},
+				{"pos" : [-302, -90, 100], "title" : "Monopoly Mountain"},
 				{"pos" : [-108, 230, 64], "title" : "Refugee Camp"},
 				{"pos" : [-18, -10, 90], "title" : "Skizzle Point"},
 				{"pos" : [254, 200, 68], "title" : "The Crastle"},
+				{"pos" : [-307, 207, 72], "title" : "BigB"},
 				
-				
-				
+			],
+		},
+	},	
+		//deaths
+	{
+		// id of the marker group, without spaces/other special chars
+		"id" : "deaths",
+		// name of the marker group, displayed in the webinterface
+		"name" : "Player Deaths",
+		// icon of the markers belonging to that group (optional)
+		"icon" : "tombstone.png",
+		// size of that icon
+		"iconSize" : [32, 32],
+		// whether this marker group is shown by default (optional)
+		"showDefault" : false,
+		// markers of this marker group...
+		"markers" : {
+			// ...in the world "world"
+			"thirdlife" : [
+				{"pos" : [220, 329, 64], "title" : "Scar", "text":"Scar blown up by a creeper that Grian lead to him.", "icon" : "scar-yellow.png"},
+				{"pos" : [-249, 9, 64], "title" : "Skizz", "text":"Skizz was defeated by an Enderman in the desert.", "icon" : "skizz-yellow.png"},
+				{"pos" : [256, 201, 64], "title" : "Bdubs", "text":"Bdubs towered too high, and a phantom knocked him to his death.", "icon" : "bdubs-yellow.png"},
 				
 			],
 		},
@@ -98,5 +119,40 @@ var MAPCRAFTER_MARKERS = [
 			],
 		},
 	},	
+	/*{
+    "id" : "test",
+    "name" : "Test",
+    "createMarker" : function(ui, groupInfo, markerInfo) {
+        var latlngs = [];
+        // use the ui.mcToLatLng-function to convert Minecraft coords to LatLngs
+        latlngs.push(ui.mcToLatLng(markerInfo.p1[0], markerInfo.p1[1], 64));
+        latlngs.push(ui.mcToLatLng(markerInfo.p2[0], markerInfo.p2[1], 64));
+        latlngs.push(ui.mcToLatLng(markerInfo.p3[0], markerInfo.p3[1], 64));
+        latlngs.push(ui.mcToLatLng(markerInfo.p4[0], markerInfo.p4[1], 64));
+        latlngs.push(ui.mcToLatLng(markerInfo.p1[0], markerInfo.p1[1], 64));
+
+        return L.polyline(latlngs, {"color" : markerInfo.color}, {"title" : markerInfo.title});
+    },
+    "markers" : {
+        "thirdlife" : [
+            {
+                "p1" : [42, 0],
+                "p2" : [0, 0],
+                "p3" : [0, 42],
+                "p4" : [42, 42],
+                "color" : "red",
+				"title" : "inner"
+            },
+            {
+                "p1" : [73, -42],
+                "p2" : [-42, -42],
+                "p3" : [-42, 73],
+                "p4" : [73, 73],
+                "color" : "yellow",
+            },
+			//{"pos" : [-50, -50, 80], "title" : "Test", "icon":"poi2.png"},
+        ],
+    },
+},*/
 
 ];
