@@ -12,21 +12,24 @@ var MAPCRAFTER_MARKERS = [
 		// size of that icon
 		"iconSize" : [24, 24],
 		// whether this marker group is shown by default (optional)
-		"showDefault" : false,
+		"showDefault" : true,
 		// markers of this marker group...
 		"markers" : {
 			// ...in the world "world"
 			"thirdlife" : [
 
 				{"pos" : [0, 255, 93], "title" : "Impulse finds pants and bread"},
-				{"pos" : [-108, 230, 64], "title" : "Refugee Party House"}
-				{"pos" : [80, 17, 64], "title" : "Tango meets Smallbeans"}
-				{"pos" : [79, 87, 62], "title" : "Tango on fire from zombie and get shield"}
-				{"pos" : [130, 108, 68], "title" : "Etho gets shield from Smallbeans and Tango"}
-				{"pos" : [272, 294, 69], "title" : "Tango and Smallbeans meet Grian and BigB"}
+				{"pos" : [-108, 230, 64], "title" : "Refugee Dance Party"},
+				{"pos" : [80, 17, 64], "title" : "Tango meets Smallbeans"},
+				{"pos" : [79, 87, 62], "title" : "Tango on fire from zombie and get shield"},
+				{"pos" : [130, 108, 68], "title" : "Etho gets shield from Smallbeans and Tango"},
+				{"pos" : [272, 294, 69], "title" : "Tango and Smallbeans meet Grian and BigB"},
 				{"pos" : [190, 345, 64], "title" : "worthers originals"},
 				{"pos" : [220, 300, 64], "title" : "The offering"},
-				{"pos" : [275, 148, 64], "title" : "Ruined Portal"}
+				{"pos" : [275, 148, 64], "title" : "Ruined Portal"},
+				{"pos" : [-122, -324, 64], "title" : "Former Dark Oak Forest"},
+				{"pos" : [-250, 325, 64], "title" : "The Unkown Dark Oak Forest"}
+
 				
 				
 			],
@@ -50,7 +53,10 @@ var MAPCRAFTER_MARKERS = [
 			"thirdlife" : [
 				{"pos" : [192, 78, 64], "title" : "Renchanting"},
 				{"pos" : [-131, 333, 64], "title" : "Valley People"},				
-				{"pos" : [-296, -97, 64], "title" : "Pride Rock/Sand Castle"}
+				{"pos" : [-296, -97, 64], "title" : "Pride Rock/Sand Castle"},
+				{"pos" : [-108, 230, 64], "title" : "Refugee Camp"},
+				{"pos" : [-18, -10, 90], "title" : "Skizzle Point"},
+				
 				
 				
 			],
