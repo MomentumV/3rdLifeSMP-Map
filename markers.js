@@ -19,7 +19,7 @@ var MAPCRAFTER_MARKERS = [
 			"thirdlife" : [
 
 				{"pos" : [0, 255, 93], "title" : "Impulse finds pants and bread"},
-				{"pos" : [-108, 230, 64], "title" : "Refugee Dance Party"},
+				{"pos" : [-108, 225, 64], "title" : "Refugee Dance Party"},
 				{"pos" : [80, 17, 64], "title" : "Tango meets Smallbeans"},
 				{"pos" : [79, 87, 62], "title" : "Tango on fire from zombie and get shield"},
 				{"pos" : [130, 108, 68], "title" : "Etho gets shield from Smallbeans and Tango"},
