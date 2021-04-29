@@ -24,7 +24,7 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [79, 87, 62], "title" : "Tango on fire from zombie and get shield"},
 				{"pos" : [130, 108, 68], "title" : "Etho gets shield from Smallbeans and Tango"},
 				{"pos" : [272, 294, 69], "title" : "Tango and Smallbeans meet Grian and BigB"},
-				{"pos" : [190, 345, 64], "title" : "worthers originals"},
+				{"pos" : [190, 345, 73], "title" : "worthers originals"},
 				{"pos" : [220, 300, 64], "title" : "The offering"},
 				{"pos" : [275, 148, 64], "title" : "Ruined Portal"},
 				{"pos" : [-122, -324, 64], "title" : "Former Dark Oak Forest"},
