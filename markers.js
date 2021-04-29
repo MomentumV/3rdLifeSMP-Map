@@ -51,9 +51,9 @@ var MAPCRAFTER_MARKERS = [
 		"markers" : {
 			// ...in the world "world"
 			"thirdlife" : [
-				{"pos" : [192, 78, 64], "title" : "Renchanting"},
-				{"pos" : [-131, 333, 64], "title" : "Valley People"},				
-				{"pos" : [-296, -97, 64], "title" : "Pride Rock/Sand Castle"},
+				{"pos" : [197, 71, 78], "title" : "Renchanting"},
+				{"pos" : [-131, 333, 62], "title" : "Valley People"},				
+				{"pos" : [-305, -77, 100], "title" : "Pride Rock/Sand Castle"},
 				{"pos" : [-108, 230, 64], "title" : "Refugee Camp"},
 				{"pos" : [-18, -10, 90], "title" : "Skizzle Point"},
 				
