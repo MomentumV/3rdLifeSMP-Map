@@ -28,6 +28,34 @@ var CONFIG = {
       "worldName": "thirdlife",
       "worldSeaLevel": 64
     },
+    "Nether": {
+      "defaultZoom": 2,
+      "imageFormat": "png",
+      "lastRendered": [
+        1619814319,
+        1619814319,
+        1619814319,
+        1619814319
+      ],
+      "maxZoom": 5,
+      "name": "Nether",
+      "renderView": "isometric",
+      "rotations": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "textureSize": 16,
+      "tileSetGroup": "croppednether_isometric_t1",
+      "tileSize": [
+        512,
+        512
+      ],
+      "world": "croppednether",
+      "worldName": "croppednether",
+      "worldSeaLevel": 64
+    },
     "Top View": {
       "defaultZoom": 2,
       "imageFormat": "png",
@@ -56,9 +84,32 @@ var CONFIG = {
   },
   "mapsOrder": [
     "Top View",
-    "Isometric"
+    "Isometric",
+    "Nether"
   ],
   "tileSetGroups": {
+    "croppednether_isometric_t1": {
+      "maxZoom": 5,
+      "tileOffsets": [
+        [
+          -6,
+          6
+        ],
+        [
+          10,
+          -7
+        ],
+        [
+          36,
+          1
+        ],
+        [
+          19,
+          14
+        ]
+      ],
+      "tileWidth": 1
+    },
     "thirdlife_isometric_t1": {
       "maxZoom": 6,
       "tileOffsets": [

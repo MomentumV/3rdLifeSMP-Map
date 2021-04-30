@@ -119,6 +119,39 @@ var MAPCRAFTER_MARKERS = [
 			],
 		},
 	},	
+	{
+		// id of the marker group, without spaces/other special chars
+		"id" : "Nether",
+		// name of the marker group, displayed in the webinterface
+		"name" : "Nether points",
+		// icon of the markers belonging to that group (optional)
+		"icon" : "poi2.png",
+		// size of that icon
+		"iconSize" : [32, 32],
+		// whether this marker group is shown by default (optional)
+		"showDefault" : true,
+		// markers of this marker group...
+		"markers" : {
+			// ...in the world "world"
+			"croppednether" : [
+
+				{"pos" : [22,6,102], "title" : "Ruined portal Entrance"},
+				{"pos" : [-9,55,64], "title" : "Scott's Portal"},
+				{"pos" : [32,33,51], "title" : "Martyn's first portal (session 1)"},
+				{"pos" : [-36,15,92], "title" : "Martyn meets Scott", "text" : "there are two trapped piglins near here as well"},
+				{"pos" : [-180,-60, 103], "title" : "on way to nether fortress, Martyn gets gold to make boots"},
+				{"pos" : [-226,-39, 75], "title" : "Nether fortress entry point"},
+				{"pos" : [-294,-39,82], "title" : "Chest","text":"horse armor and gold"},
+				{"pos" : [-304,-48,74], "title" : "Chest","text":"Scott finds a saddle and obsidian"},
+				{"pos" : [-259,-13,74], "title" : "Chest","text":"Scott finds diamond horse armor (and 2 gold horse armor)"},
+				{"pos" : [-259,-20,74], "title" : "Chest","text":"Martyn gets gold and 2 diamonds... later shares one with Scott."},
+				{"pos" : [-350, 37, 76], "title" : "Nether wall selfie"},
+				{"pos" : [-255,24,80], "title" : "Blaze spawner Scott and Martyn fight"},	
+				
+			],
+		},
+	},	
+
 	/*{
     "id" : "test",
     "name" : "Test",
