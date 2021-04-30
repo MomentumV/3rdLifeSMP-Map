@@ -1,44 +1,16 @@
 var CONFIG = {
   "maps": {
-    "Isometric": {
-      "defaultZoom": 2,
+    "Nether (Explored so far)": {
+      "defaultZoom": 3,
       "imageFormat": "png",
       "lastRendered": [
-        1619556996,
-        1619556996,
-        1619556996,
-        1619556996
-      ],
-      "maxZoom": 6,
-      "name": "Isometric",
-      "renderView": "isometric",
-      "rotations": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "textureSize": 16,
-      "tileSetGroup": "thirdlife_isometric_t1",
-      "tileSize": [
-        512,
-        512
-      ],
-      "world": "thirdlife",
-      "worldName": "thirdlife",
-      "worldSeaLevel": 64
-    },
-    "Nether": {
-      "defaultZoom": 2,
-      "imageFormat": "png",
-      "lastRendered": [
-        1619814319,
-        1619814319,
-        1619814319,
-        1619814319
+        1619825525,
+        1619825525,
+        1619825525,
+        1619825525
       ],
       "maxZoom": 5,
-      "name": "Nether",
+      "name": "Nether (Explored so far)",
       "renderView": "isometric",
       "rotations": [
         0,
@@ -56,17 +28,45 @@ var CONFIG = {
       "worldName": "croppednether",
       "worldSeaLevel": 64
     },
-    "Top View": {
+    "Overworld Isometric": {
       "defaultZoom": 2,
       "imageFormat": "png",
       "lastRendered": [
-        1619556996,
+        1619825146,
+        1619825146,
+        1619825146,
+        1619825146
+      ],
+      "maxZoom": 6,
+      "name": "Overworld Isometric",
+      "renderView": "isometric",
+      "rotations": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "textureSize": 16,
+      "tileSetGroup": "thirdlife_isometric_t1",
+      "tileSize": [
+        512,
+        512
+      ],
+      "world": "thirdlife",
+      "worldName": "thirdlife",
+      "worldSeaLevel": 64
+    },
+    "Overworld Top View": {
+      "defaultZoom": 2,
+      "imageFormat": "png",
+      "lastRendered": [
+        1619825146,
         0,
         0,
         0
       ],
       "maxZoom": 6,
-      "name": "Top View",
+      "name": "Overworld Top View",
       "renderView": "topdown",
       "rotations": [
         0
@@ -83,9 +83,9 @@ var CONFIG = {
     }
   },
   "mapsOrder": [
-    "Top View",
-    "Isometric",
-    "Nether"
+    "Overworld Top View",
+    "Overworld Isometric",
+    "Nether (Explored so far)"
   ],
   "tileSetGroups": {
     "croppednether_isometric_t1": {
