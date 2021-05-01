@@ -4,10 +4,10 @@ var CONFIG = {
       "defaultZoom": 3,
       "imageFormat": "png",
       "lastRendered": [
-        1619825525,
-        1619825525,
-        1619825525,
-        1619825525
+        1619827848,
+        1619827848,
+        1619827848,
+        1619827848
       ],
       "maxZoom": 5,
       "name": "Nether (Explored so far)",
