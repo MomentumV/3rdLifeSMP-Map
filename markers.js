@@ -35,6 +35,37 @@ var MAPCRAFTER_MARKERS = [
 			],
 		},
 	},	
+	// Session Two Events
+	{
+		// id of the marker group, without spaces/other special chars
+		"id" : "session2",
+		// name of the marker group, displayed in the webinterface
+		"name" : "Session Two Markers",
+		// icon of the markers belonging to that group (optional)
+		"icon" : "poi2.png",
+		// size of that icon
+		"iconSize" : [24, 24],
+		// whether this marker group is shown by default (optional)
+		"showDefault" : true,
+		// markers of this marker group...
+		"markers" : {
+			// ...in the world "world"
+			"thirdlife" : [
+
+				{"pos" : [-341, 222, 77], "title" : "BigB throws away leather"},
+				{"pos" : [-305, -80, 100], "title" : "The travelling magicians create a dark oak tree!"},
+				{"pos" : [278, -170, 70], "title" : "Tango's secret beef"},
+				{"pos" : [-129, 341, 63], "title" : "Daisy's Pen, RIP"},
+				{"pos" : [-116, 347, 63], "title" : "Daisy's secret hiding place", "text": "Scott (smajor1995) and Jimmy (Solidarity) hid a cow in a secret pen, after claiming it died to a cactus."},
+				{"pos" : [208, 240, 68], "title" : "Raid triggered!", "text" : "Scott punches Martyn over the line (with some encouragement)"},
+				{"pos" : [204, 117, 63], "title" : "What a good pup!", "text" : "Impluse discovers Tango's abandoned dog. Tango leaves the dog for later retrevial"},
+				
+				
+				
+			],
+		},
+	},	
+	
 	//bases
 	{
 		// id of the marker group, without spaces/other special chars
@@ -137,7 +168,7 @@ var MAPCRAFTER_MARKERS = [
 
 				{"pos" : [22,6,102], "title" : "Ruined portal Entrance"},
 				{"pos" : [-9,55,64], "title" : "Scott's Portal"},
-				{"pos" : [32,33,51], "title" : "Martyn's first portal (session 1)"},
+				{"pos" : [32,33,51], "title" : "Martyn's first portal (session 1)","icon":"poi.png"},
 				{"pos" : [-36,15,92], "title" : "Martyn meets Scott", "text" : "there are two trapped piglins near here as well"},
 				{"pos" : [-180,-60, 103], "title" : "on way to nether fortress, Martyn gets gold to make boots"},
 				{"pos" : [-226,-39, 75], "title" : "Nether fortress entry point"},
