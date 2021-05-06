@@ -83,9 +83,9 @@ var MAPCRAFTER_MARKERS = [
 			// ...in the world "world"
 			"thirdlife" : [
 				{"pos" : [197, 71, 78], "title" : "Renchanting/Dogwarts"},
-				{"pos" : [-131, 333, 62], "title" : "Valley/Hobbit People"},				
+				{"pos" : [-131, 333, 62], "title" : "Valley/Hobbit People (Scott and Jimmy)"},				
 				{"pos" : [-302, -90, 100], "title" : "Monopoly Mountain/Scarhara"},
-				{"pos" : [-108, 230, 64], "title" : "Refugee Camp"},
+				{"pos" : [-108, 230, 64], "title" : "(now abandoned) Refugee Camp"},
 				{"pos" : [-18, -10, 90], "title" : "Skizzle Point"},
 				{"pos" : [254, 200, 68], "title" : "The Crastle"},
 				{"pos" : [-307, 207, 72], "title" : "BigB"},
