@@ -109,10 +109,10 @@ var MAPCRAFTER_MARKERS = [
 		"markers" : {
 			// ...in the world "world"
 			"thirdlife" : [
-				{"pos" : [220, 329, 64], "title" : "Scar", "text":"Scar blown up by a creeper that Grian lead to him.", "icon" : "scar-yellow.png"},
-				{"pos" : [-249, 9, 64], "title" : "Skizz", "text":"Skizz was defeated by an Enderman in the desert.", "icon" : "skizz-yellow.png"},
-				{"pos" : [256, 201, 64], "title" : "Bdubs", "text":"Bdubs towered too high, and a phantom knocked him to his death.", "icon" : "bdubs-yellow.png"},
-				{"pos" : [-234, 49, 33], "title" : "Scar", "text":"Scar did not mind the gap, and jumped into a ravine.", "icon" : "scar-red.png"},
+				{"pos" : [220, 329, 64], "title" : "Scar", "text":"Scar blown up by a creeper that Grian lead to him.", "icon" : "scar-green.png"},
+				{"pos" : [-249, 9, 64], "title" : "Skizz", "text":"Skizz was defeated by an Enderman in the desert.", "icon" : "skizz-green.png"},
+				{"pos" : [256, 201, 64], "title" : "Bdubs", "text":"Bdubs towered too high, and a phantom knocked him to his death.", "icon" : "bdubs-green.png"},
+				{"pos" : [-234, 49, 33], "title" : "Scar", "text":"Scar did not mind the gap, and jumped into a ravine.", "icon" : "scar-yellow.png"},
 				
 			],
 		},
