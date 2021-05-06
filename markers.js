@@ -65,7 +65,31 @@ var MAPCRAFTER_MARKERS = [
 			],
 		},
 	},	
-	
+	// Session three Events
+	{
+		// id of the marker group, without spaces/other special chars
+		"id" : "session3",
+		// name of the marker group, displayed in the webinterface
+		"name" : "Session Three Markers",
+		// icon of the markers belonging to that group (optional)
+		"icon" : "poi3.png",
+		// size of that icon
+		"iconSize" : [24, 24],
+		// whether this marker group is shown by default (optional)
+		"showDefault" : true,
+		// markers of this marker group...
+		"markers" : {
+			// ...in the world "world"
+			"thirdlife" : [
+
+				{"pos" : [55, 219, 94], "title" : "Joel's Portal"},
+				
+				
+				
+				
+			],
+		},
+	},	
 	//bases
 	{
 		// id of the marker group, without spaces/other special chars
@@ -85,11 +109,14 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [197, 71, 78], "title" : "Renchanting/Dogwarts"},
 				{"pos" : [-131, 333, 62], "title" : "Valley/Hobbit People (Scott and Jimmy)"},				
 				{"pos" : [-302, -90, 100], "title" : "Monopoly Mountain/Scarhara"},
-				{"pos" : [-108, 230, 64], "title" : "(now abandoned) Refugee Camp"},
+				{"pos" : [-108, 230, 64], "title" : "(now abandoned) Refugee Camp", "icon": "home-hashed.png"},
 				{"pos" : [-18, -10, 90], "title" : "Skizzle Point"},
 				{"pos" : [254, 200, 68], "title" : "The Crastle"},
-				{"pos" : [-307, 207, 72], "title" : "BigB"},
-				
+				{"pos" : [-307, 207, 72], "title" : "BigB starter", "icon":"home-hashed.png"},
+				{"pos" : [91, 230, 94], "title" : "Dead bush hill (Joel's house)"},
+				{"pos" : [227, -53, 99], "title" : "BigB Cookie Claim"},
+				{"pos" : [93, -151, 62], "title" : "Etho's flamable Shrek fortress"},
+
 			],
 		},
 	},	
@@ -178,7 +205,9 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [-259,-13,74], "title" : "Chest","text":"Scott finds diamond horse armor (and 2 gold horse armor)"},
 				{"pos" : [-259,-20,74], "title" : "Chest","text":"Martyn gets gold and 2 diamonds... later shares one with Scott."},
 				{"pos" : [-350, 37, 76], "title" : "Nether wall selfie"},
-				{"pos" : [-255,24,80], "title" : "Blaze spawner Scott and Martyn fight"},	
+				{"pos" : [-255,24,80], "title" : "Blaze spawner Scott and Martyn fight"},
+				//session 3
+				{"pos" : [8,12,100], "title" : "Joel's nether portal", "icon":"poi3.png"},
 				
 			],
 		},
