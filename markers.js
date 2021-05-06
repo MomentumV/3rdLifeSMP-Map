@@ -82,9 +82,9 @@ var MAPCRAFTER_MARKERS = [
 		"markers" : {
 			// ...in the world "world"
 			"thirdlife" : [
-				{"pos" : [197, 71, 78], "title" : "Renchanting"},
-				{"pos" : [-131, 333, 62], "title" : "Valley People"},				
-				{"pos" : [-302, -90, 100], "title" : "Monopoly Mountain"},
+				{"pos" : [197, 71, 78], "title" : "Renchanting/Dogwarts"},
+				{"pos" : [-131, 333, 62], "title" : "Valley/Hobbit People"},				
+				{"pos" : [-302, -90, 100], "title" : "Monopoly Mountain/Scarhara"},
 				{"pos" : [-108, 230, 64], "title" : "Refugee Camp"},
 				{"pos" : [-18, -10, 90], "title" : "Skizzle Point"},
 				{"pos" : [254, 200, 68], "title" : "The Crastle"},
@@ -112,6 +112,7 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [220, 329, 64], "title" : "Scar", "text":"Scar blown up by a creeper that Grian lead to him.", "icon" : "scar-yellow.png"},
 				{"pos" : [-249, 9, 64], "title" : "Skizz", "text":"Skizz was defeated by an Enderman in the desert.", "icon" : "skizz-yellow.png"},
 				{"pos" : [256, 201, 64], "title" : "Bdubs", "text":"Bdubs towered too high, and a phantom knocked him to his death.", "icon" : "bdubs-yellow.png"},
+				{"pos" : [-234, 49, 33], "title" : "Scar", "text":"Scar did not mind the gap, and jumped into a ravine.", "icon" : "scar-red.png"},
 				
 			],
 		},
